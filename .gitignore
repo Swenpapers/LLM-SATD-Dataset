@@ -1,0 +1,10 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore temporary files (from Excel, Word, etc.)
+~$*
+
+# Ignore log or cache files
+*.log
+__pycache__/
+
