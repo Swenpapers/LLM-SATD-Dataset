@@ -1,0 +1,41 @@
+comments,LLM Types,LLM-related Debts
+"# TODO make this more flexible - with every message, save metadata so every time we load a branch, reconstruct all messages from scratch",OpenAI,Other
+# TODO: Try the same prompt with compressed data.,OpenAI,PromptDebt
+"# TODO: this check has been switched to ""false"" after LlamaIndex deprecated LLMPredictors",OpenAI,FrameworkDebt
+# TODO: (Getting index error) generate response for each prompt,OpenAI,PromptDebt
+# TODO Summary customization? OpenAI models or LangChain models?,OpenAI,FrameworkDebt
+# TODO make sure that the inputed message is a collection of the system prompt and previous messages,OpenAI,PromptDebt
+"# TODO Powerpoint: expected improvement and framework => LangChain, Customized vector DB on Cloudserver => Possible direct implementation",OpenAI,FrameworkDebt
+# TODO: Replace LangChain by guidance,OpenAI,FrameworkDebt
+"# MAGIC Because Cleanlab Studio improves models and insights by improving the underlying data, it works for any model or LLM that exists today or may exist in the future and will only become better at identifying issues as more accurate models are released!",OpenAI,Other
+# TODO: fix website data read rights,OpenAI,Other
+# todo: implement min heap to return top-K here,OpenAI,TuningDebt
+# HACK: add lang code to prompt for models using language token,OpenAI,PromptDebt
+# todo: check prompt length and response length,OpenAI,PromptDebt/CostDebt
+"# used an LLM to write these, maybe a future experiment.",OpenAI,Other
+# TODO - We can probably make this more specific,OpenAI,Other
+# TODO: Break new prompt into config,OpenAI,PromptDebt
+# TODO (Jonny): we need a way to make sure that both this and the DateFormat are always in sync,OpenAI,Other
+# TODO: generate the prompt with just gene names but in children groups,OpenAI,PromptDebt
+"# TODO: either here or somewhere else, if its doxxing or something very severe we might want to remove the post",OpenAI,Other
+# TODO Fix cases where this makes the prompt too long,OpenAI,PromptDebt/CostDebt
+# TODO Change the prompt depending on the language.,OpenAI,PromptDebt
+# todo: use SPR writer to compress this prompt statically (aka update this file to be more concise),OpenAI,PromptDebt/FrameworkDebt
+"# TODO modify this line, if it is the final round, add some instruction in the prompt",OpenAI,PromptDebt
+# TODO: I should escape the other potential braces in the conversation,OpenAI,PromptDebt
+# TODO: Add info like last message date or something,OpenAI,Other
+# HACK since we can't specify exact prompt in .yaml,OpenAI,PromptDebt
+"# TODO: Haven't checked if this prompt ever returns ""Maybe/unclear"". Also,",OpenAI,PromptDebt
+"# ""summary"": ""This inspiring documentary follows Joe Cross, who embarks on a 60-day juice fast to regain his health and lose weight. Along the way, he",OpenAI,Other
+# TODO: Prompt User to modify/approve context,OpenAI,PromptDebt
+"# TODO 3: Define classify_images function below, specifically replace the None",OpenAI,Other
+# todo - add a moderation check,OpenAI,Other
+# TODO: Fake message for testing purposes. Remove.,OpenAI,Other
+# TODO: refine the prompt template,OpenAI,PromptDebt
+# TODO handle single message with token length > max_num_tokens,OpenAI,PromptDebt/TuningDebt
+# TODO inefficient as hell.,OpenAI,Other
+# TODO: Think about adding test for prompt content checks,OpenAI,PromptDebt
+# Todo: handle api calls elsewhere for request batching and retries,OpenAI,Other
+# TODO: Inject version here,OpenAI,Other
+# TODO really?,OpenAI,Other
+# TODO: handle annotations,OpenAI,Other

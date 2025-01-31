@@ -1,0 +1,138 @@
+Comment,API Call Types
+"# one div that contains two divs, where the left of the two inner divs has a fixed width of 100px",OpenAI
+"# This is a bit hacky, but I can't figure out a better way to enforce",LangChain
+"# scale up to undo the division above, approximating the true total loss (exact would have been a sum)",OpenAI
+"# ignore_eos=kai_payload.use_default_badwordsids, # TODO ban instead",OpenAI
+"# objective is the original objective & task that user give to the agent, url is the url of the website to be scraped",OpenAI
+"# if the character is ""none"", delete the imagine part. Due to zsh this cannot be passed to ``template`` nicely",LangChain
+"# some lightweight setup, repeating it for each character shouldn't be a problem",LangChain
+"# scale up to undo the division above, approximating the true total loss (exact would have been a sum)",OpenAI
+"# Try to add a link from all_links, this is kind of messy.","OpenAI, LangChain"
+"# filter out the ""input"" key. When web search is used, the ""input"" key is present in the response and it looks.. ugly.. so we filter it out","OpenAI, Anthropic, LangChain"
+"# Words are same in all models, so running it once is good",OpenAI
+"#     ),  # TODO dont understand why batchnorm1d dont work, probably some shape think. Look for the diff between these two.",OpenAI
+"# Wide with 2 noisies, better than just 1 and also as good as 3.",OpenAI
+"# @funix.funix(  # Funix.io, the laziest way to build web apps in Python",OpenAI
+"# gpt-4 is faster, smarter, can call functions, and is all-around easier to use.",OpenAI
+"# Since it's not stricly necessary, let's worry about that another day. Should probably log this somehow though.",OpenAI
+"# context window is set to 1800, messages are trimmed to 1000... 700 seems nice",OpenAI
+"# We only add this if we have it-- the second we have it, an interpreter gets fired up (I think? maybe I'm wrong)",OpenAI
+"# First, try to split along class definitions",LangChain
+"# TODO: measure data_server lags, maybe launch several instances",OpenAI
+"# optional, to improve readability","OpenAI, LangChain"
+"# partial rotary embeddings, which is better than full rotary",OpenAI
+"# layer. This way, the rank referenced by the 'split rank' remains",OpenAI
+"# scale up to undo the division above, approximating the true total loss (exact would have been a sum)",OpenAI
+"# scale up to undo the division above, approximating the true total loss (exact would have been a sum)",OpenAI
+"# Now go merging things, recursively splitting longer texts.",LangChain
+"# scale up to undo the division above, approximating the true total loss (exact would have been a sum)",OpenAI
+"# gpt-4 is faster, smarter, can call functions, and is all-around easier to use.",OpenAI
+"# Since it's not stricly necessary, let's worry about that another day. Should probably log this somehow though.",OpenAI
+"# context window is set to 1800, messages are trimmed to 1000... 700 seems nice",OpenAI
+"# We only add this if we have it-- the second we have it, an interpreter gets fired up (I think? maybe I'm wrong)",OpenAI
+"# TODO: this is very hacky, must fix this later (submodule dependency)",OpenAI
+"# todo this is quick fix for flag that shows if we fully loaded project, should be implemented properly",OpenAI
+"# files changed, move cur messages back behind the files messages",OpenAI
+"# TODO: This means new snapshots will be created for every run, ideally there'd be a use container as readonly vs persist snapshot option","OpenAI, LangChain"
+"# Should be between 1 and n_ctx, consider the amount of VRAM in your GPU. ",LangChain
+"# f16_kv=True means the model will use half-precision for the key/value cache, which can be more memory efficient.",LangChain
+"# broken download link (can't download google drive), fixed by this PR https://github.com/pytorch/vision/pull/5645",OpenAI
+"# then create the embeddings, clearing way for the AI to learn",OpenAI
+"# Too weak in case file changed content, assume parent shouldn't pass true for this for now","OpenAI, LangChain"
+"# Should not make MyData db this way, why avoided, only upload from UI","OpenAI, LangChain"
+"# if HF type and have no docs, can bail out","OpenAI, LangChain"
+"# if save memory, move out of cpu",OpenAI
+"# if save memory, move back to cpu",OpenAI
+"# if save memory, move out of cpu",OpenAI
+"# if save memory, move back to cpu",OpenAI
+"# and all its subclasses, which is a bigger refactor. Marking as future TODO.",LangChain
+"# if there is no tools chosen, we use all todo (TODO: What if the pool is too large.)",LangChain
+"# rng is currently not numpy, but this would be very convenient. do this until that is resolved.",OpenAI
+"#prompt = f""The following text is a conversation from a trading transcript: \""{text}\"". Summarize the most important trading-related information in three concise bullet points. After the bullet points, provide a brief conclusion suggesting potential actions and key ideas based on the summarized points, all in the style of Warren Buffet.""",OpenAI
+"#prompt = f""The following text is a conversation from a trading transcript: \""{text}\"". Summarize the most important trading-related information in five concise bullet points. After the bullet points, provide a brief paragraph suggesting potential actions and key ideas based on the summarized points, all in the style of Warren Buffet. Always penalize redundancy. Write only sentences with full ideas""",OpenAI
+"# This is a bit hacky, but I can't figure out a better way to enforce",LangChain
+"# only save the last frame of the state, in memory efficient format: uint8",OpenAI
+"# if it contained ""\n\n"" in the first place, maybe that caused the dialogue to stop. So, continue generating with the cleaned dialogue",OpenAI
+"# if GPT-3 only adds a single utterance, maybe it has nothing more to say!",OpenAI
+"#    ""content"": ""Author Credibility: 'Historically, how credible is the author in terms of journalistic integrity?' Response: 'Author Credibility: The author of the text is credible/non-credible based on past articles.', or 'No past articles tied to this author was found'.""",OpenAI
+"#st.write(""The provided article has been flagged as '**Probably Credible**'. The analysis is based on a Logistical Regression ML-model, trained on a database of known false and true news articles. \n\nThe model makes no analysis of author intent. It is also important to keep in mind that the models verdict is based on probabilities, and can not be used as the single source for judgement on an articles credibility."")",OpenAI
+"#st.write(""The provided article has been flagged as '**Probably Not Credible**'. \n\nThe analysis is based on a Logistical Regression ML-model, trained on a database of known false and true news articles. \n\nThe model makes no analysis of author intent. It is also important to keep in mind that the models verdict is based on probabilities, and can not be used as the single source for judgement on an articles credibility."")",OpenAI
+"# save model, optimizer and test_predictions if val_acc is improved",OpenAI
+"# Too weak in case file changed content, assume parent shouldn't pass true for this for now","OpenAI, LangChain"
+"# Should not make MyData db this way, why avoided, only upload from UI","OpenAI, LangChain"
+"# if HF type and have no docs, can bail out","OpenAI, LangChain"
+"# Initialize spacy 'en_core_web_sm' model, keeping only tagger component (for efficiency)",Cohere
+"# This is a bit hacky, but I can't figure out a better way to enforce",LangChain
+"# TODO: This means new snapshots will be created for every run, ideally there'd be a use container as readonly vs persist snapshot option","OpenAI, LangChain"
+"# we've already applied to this job, toss it!","OpenAI, LangChain"
+"# remove the oldest message from context, probably because the context is too long",OpenAI
+"# This is unused today, but in the future could",LangChain
+"# locking not fully working, temporary hack to ensure deduplication",LangChain
+"# Two options for llm, gpt3 (davinci) and gpt-3.5. The latter seems quicker and smarter but not as good at following instructions. I had more success with DaVinci. GPT-3.5 might need a custom parser to handle when it goes off track.","OpenAI, LangChain"
+"# use openai to compose standalone question from conversation history (legacy code, should probably be replaced with langchain equivalent)","OpenAI, LangChain"
+"# It would be costly and time-consuming, but we might get better results if we estimate each criteria in",OpenAI
+"# yo, no idea why but the texts are not split correctly",LangChain
+"# # pull out the geographical key and parse it, if it fails nuke it, its too complicated to parse why a json array could be malformed",OpenAI
+"# GPT completion models can not handle web sites, so we scrape the URL in the user input","OpenAI, LangChain"
+"# and all its subclasses, which is a bigger refactor. Marking as future TODO.",LangChain
+"# 2/ If there are url of relevant links & articles,you will scrape it to gather more information","OpenAI, LangChain"
+"# 3/ After scraping & search, you should think ""is there any new things i should search & scraping based on the data I collected to increase research quality?"" If answer is yes, continue; But don't do this more than 3 iteratins","OpenAI, LangChain"
+"# This is a bit hacky, but I can't figure out a better way to enforce",LangChain
+"# Add a separator for empty lines (optional, for better readability)",OpenAI
+"# MAGIC We won't be using chunking in this rag bot, but I wanted to include how you would do this. This is a good strategy if you need extra control over token input. ",LangChain
+"# If we didn't, the model would try backpropagating all the way to start of the dataset.",OpenAI
+"# scale up to undo the division above, approximating the true total loss (exact would have been a sum)",OpenAI
+"# If it didnt get closer, we give much less points in theory",OpenAI
+"# there was a return output[2:] hack here, but I forgot why",OpenAI
+"# As we want the chat to answer specific question from the text, it's better to control the level of randomness","OpenAI, LangChain"
+"# files changed, move cur messages back behind the files messages",OpenAI
+"# it is safe to assume that if we get a validation error, there is a problem with the json object","OpenAI, Anthropic"
+"# Too weak in case file changed content, assume parent shouldn't pass true for this for now","OpenAI, LangChain"
+"# if HF type and have no docs, can bail out","OpenAI, LangChain"
+"#     dbc.NavbarSimple(id=""navbar"", brand=""CS 685 Semantic Search"", brand_href=""/todo"", color=""primary"", className=""mb-3"", dark=True),",OpenAI
+"# Should be between 1 and n_ctx, consider the amount of RAM of your Apple Silicon Chip.","OpenAI, LangChain"
+"# This is a bit hacky, but I can't figure out a better way to enforce","OpenAI, Anthropic, Cohere, LangChain"
+"# the set_subtensor implementation, presumably because of the extra reshapes after the splits.         ",OpenAI
+"# NOTES: - I'm considering changing the variable names to be more descriptive, and look less like ridiculous academic code. It's on the to-do list.",OpenAI
+"# if there is no tools chosen, we use all todo (TODO: What if the pool is too large.)",LangChain
+"# Split the code into chunks, ideally where there is a GO statement which indicates the end of a significant code block.","OpenAI, LangChain"
+"# ""full_input"": prompt_string, #TODO: remove redundant",OpenAI
+"# ""prompt_index"": prompt_index, #TODO: remove redunant",OpenAI
+"# ""path_to_prompt_fills"": path_to_prompt_fills, #TODO: remove unused",OpenAI
+"# Notation: In practice, we manually regard [CLS] token as the most informative, ",OpenAI
+"#Right now calling requests to get the synopsis, once Dataset is ready, replace it",OpenAI
+"# helper function to trim the length of a chunk, and remove any newline characters so it prints better",LangChain
+"# agent.run(""My monthly salary is 10000 KES, if i work for 10 months. How much is my total salary in USD in those 10 months."")","OpenAI, LangChain"
+"######IMPORTANT NOTE: I'm sharing this as a framework to build on top of (with lots of errors for improvement), to facilitate discussion around how to improve these. This is NOT for people who are looking for a complete solution that's ready to use. ######",OpenAI
+"#     description=""Whether or not you allow the recipient to have access to their tools in order to complete the inquiry. Typically left as default false because this inquiry tool is meant for their own knowledge, however there can be the case where the recipient would require tool access to properly respond to the inquiry.""",OpenAI
+"# name_logit_bias[198] = -5 # also penalize newline, although we want it eventually eventually",OpenAI
+"# system_msg = ""You are a skilled Java developer familiar with the Apache Hadoop project. Hadoop is an open-source framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Hadoop's codebase is mainly in Java and adheres to Java development best practices. Your task is to generate unit tests for Java methods in the Hadoop project, ensuring the tests are comprehensive and cover various scenarios, including edge cases. The tests should follow Java coding standards and practices suitable for a large-scale, well-maintained open-source project.""",OpenAI
+"# IN Walrus the odometry angular readings are inverted, so we have to invert the sign. TODO check this",OpenAI
+"# Should be between 1 and n_ctx, consider the amount of VRAM in your GPU.",LangChain
+"# Initialize spacy 'en' model, keeping only tagger component (for efficiency)",Cohere
+"# Don't evaluate model perplexity, takes too much time.",Cohere
+"# Initialize spacy 'en' model, keeping only tagger component (for efficiency)",Cohere
+"# MAGIC For a production-grade example, you'd typically use `langchain` and potentially send the entire chat history to your endpoint to support ""follow-up"" style questions *(this version doesn't support follow-up question but it's only a question of prompt engineering)*.",LangChain
+"# save model, optimizer and test_predictions if val_acc is improved",OpenAI
+"# this strategy for action selection does not work very well, TODO improve this",Cohere
+"# TODO: This feels hacky, perhaps better to have a shell register itself","OpenAI, LangChain"
+"# TODO: More elegant way to do this, probably on provider.","OpenAI, LangChain"
+"# Currently "", "" is better for detecting single tags",OpenAI
+"# Currently "", "" is better for detecting single tags",OpenAI
+"# for reproduction only, if you want better performance, use temperature>0","OpenAI, Anthropic"
+"# Now go merging things, recursively splitting longer texts.",LangChain
+"# First, try to split along class definitions",LangChain
+"# First, try to split along Latex sections",LangChain
+"# First, try to split along HTML tags",LangChain
+"# scale up to undo the division above, approximating the true total loss (exact would have been a sum)",OpenAI
+"# Initialize spacy 'en' model, keeping only tagger component (for efficiency)",Cohere
+"#This function is used to predict the action the model would take for a given observation, as well as the value of that state decided by the learnt value function",OpenAI
+"# Initialize spacy 'en' model, keeping only tagger component (for efficiency)",Cohere
+"# save model, optimizer and test_predictions if val_acc is improved",OpenAI
+"# MAGIC Please note, we aren't providing time-out handling or thoroughly validating the response from the model in this next cell.  We will want to make this logic more robust as we assemble our application class but for now we'll keep it simple to ensure the code is easy to read:","OpenAI, LangChain"
+"# MAGIC While MLflow now [supports](https://www.databricks.com/blog/2023/04/18/introducing-mlflow-23-enhanced-native-llm-support-and-new-features.html) both OpenAI and LangChain model flavors, the fact that we've written custom logic for our bot application means that we'll need to make use of the more generic [pyfunc](https://mlflow.org/docs/latest/python_api/mlflow.pyfunc.html#creating-custom-pyfunc-models) model flavor.  This model flavor allows us to write a custom wrapper for our model that gives us considerable control over how our model responds when deployed through standard, MLflow-provided deployment mechanisms. ","OpenAI, LangChain"
+"# the set_subtensor implementation, presumably because of the extra reshapes after the splits.         ",OpenAI
+"# NOTES: - I'm considering changing the variable names to be more descriptive, and look less like ridiculous academic code. It's on the to-do list.",OpenAI
+"# If a directory was confirmed, move the specified files to the PreProcess directory",OpenAI
+"# system_prompt = ""Convert the user goal into a useful web search query, for finding the best contacts for achieving the Goal through a targeted web search, include location if needed. The output should be in JSON format, also saying where to search in a list, an enum (web, yelp), where web is used for all cases and yelp is used only for restaurants, home services, auto service, and other services and repairs.""",OpenAI
+"# Haha, shi*** detection but better than nothing",Cohere
